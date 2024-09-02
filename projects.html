@@ -14,20 +14,13 @@
 
 	<!-- page Container -->
 	<div class="container">
-		<section class="home">
-			<div class="branding">
-				<img src="img/Logo_SahilRashyani.svg" alt="Sahil Rashyani Logo" class="logo" />
-				<h1>
-					<span class="glitch" data-text="Sahil">Sahil</span>
-					<span class="phonetic-name"><img src="img/voice-over.svg" alt="phonetic name pronounciation icon" class="pronounciation" /> SAA-hill</span>
-					<br />
-					<span class="" data-text="Rashyani">Rashyani</span>
-				</h1>
-			</div>
-			<p class="what-i-do">
-				Design<span class="period">.</span>Tech<span class="period">.</span>Research<span class="period">.</span>Write
-			</p>
-		</section>		
+		<section class="projects">
+			<h1>Doggo at work!</h1>
+			<p>This page is in development. For any queries, contact me <a href="contact.html">here</a>.</p>
+		</section>
+		<!-- <section class="projects">
+			<h1>Projects</h1>
+		</section> -->
 	</div>
 
 	<!-- navigation -->
@@ -39,8 +32,10 @@
 				<span class="ellipses ellipses-2"></span>
 				<span class="ellipses ellipses-3"></span>
 			</label>
-			<a href="splash.html" class="menu-item" data-text="Site Info"> <img src="img/info.svg" class="menu-logo" /> </a>
-			<a href="contact.html" class="menu-item" data-text="Contact"> <img src="img/contact.svg" class="menu-logo" />
+			<a href="splash.html" class="menu-item" data-text="Site Info"> <img src="img/info.svg" class="menu-logo" />
+			</a>
+			<a href="contact.html" class="menu-item" data-text="Contact"> <img src="img/contact.svg"
+					class="menu-logo" />
 			</a>
 			<a href="projects.html" class="menu-item" data-text="Projects"> <img src="img/projects.svg"
 					class="menu-logo" /> </a>
@@ -59,7 +54,8 @@
 		<defs>
 			<filter id="shadowed-goo">
 				<feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
-				<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+				<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+					result="goo" />
 				<feGaussianBlur in="goo" stdDeviation="3" result="shadow" />
 				<feColorMatrix in="shadow" mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 -0.2"
 					result="shadow" />
@@ -69,7 +65,8 @@
 			</filter>
 			<filter id="goo">
 				<feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
-				<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+				<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+					result="goo" />
 				<feComposite in2="goo" in="SourceGraphic" result="mix" />
 			</filter>
 		</defs>
