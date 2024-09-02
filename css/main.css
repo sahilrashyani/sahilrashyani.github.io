@@ -722,6 +722,11 @@ a:hover, a:focus {
 .projects {
     min-height: 400px;
     background: url('../img/working-doggo.GIF') 90% 50px no-repeat;
+    filter: hue-rotate(150deg);
+}
+
+.projects p {
+    filter: hue-rotate(-150deg);
 }
 
 /* .projects {
