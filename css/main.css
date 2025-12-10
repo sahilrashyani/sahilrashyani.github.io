@@ -605,9 +605,10 @@ a:hover, a:focus {
 }
 
 .what-i-do {
+    font-size: 0.9em;
     font-weight: bold;
-    text-transform: uppercase;
-    padding-left: 7.25em;
+    /* text-transform: uppercase; */
+    /* padding-left: 7.25em; */
     margin: 0;
 }
 
