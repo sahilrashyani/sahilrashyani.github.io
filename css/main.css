@@ -942,7 +942,7 @@ a:hover, a:focus {
 
 .social ul li a .social-logo {
     width: 1.5em;
-    filter: invert(1);
+    filter: invert(1)drop-shadow(1px 1px 2px #6dd5ed) drop-shadow(-1px -1px 0 #6dd5ed) drop-shadow(0 0 1px #6dd5ed);
     transition: all .2s ease-in;
     position: absolute;
     bottom: 0;
@@ -954,7 +954,7 @@ a:hover, a:focus {
 }
 
 .social ul li a:hover .social-logo {
-    filter: invert(1) drop-shadow(1px 1px 2px #6dd5ed) drop-shadow(-1px -1px 2px #6dd5ed) drop-shadow(0 0 1px #6dd5ed);
+    filter: invert(0) drop-shadow(1px 1px 2px #6dd5ed) drop-shadow(-1px -1px 2px #000) drop-shadow(0 0 1px #6dd5ed);
 }
 
 .splash .heart {
