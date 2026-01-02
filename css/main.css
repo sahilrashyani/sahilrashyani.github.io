@@ -781,16 +781,16 @@ a:hover, a:focus {
 }
 @keyframes fly {
   0% {
-    transform: translateY(0) rotateZ(0deg);
+    transform: translateY(0) rotateZ(5deg);
   }
   40% {
-    transform: translateY(2px);
+    transform: translateY(2px) rotateZ(5deg);
   }
   60% {
-      transform: rotateZ(1deg);
+    transform: translateY(0) rotateZ(5deg);
   }
   100% {
-    transform: translateY(0) rotateZ(0deg);
+    transform: translateY(0) rotateZ(5deg);
   }
 }
 .contact .sky .heli .copter {
@@ -855,23 +855,23 @@ a:hover, a:focus {
 .social-cargo {
     display: block;
     position: absolute;
-    top: 160px;
+    top: 165px;
     width: 100%;
     transform-origin: 50% 0%;
     animation: 2s ease-in-out infinite fly2;
 }
 @keyframes fly2 {
   0% {
-    transform: translateY(0) rotate(2deg);
+      transform: translateY(0) rotateZ(5deg) skewX(-10deg);
   }
   40% {
-    transform: translateY(2px) rotate(2deg);
+      transform: translateY(2px) rotateZ(5deg) skewX(-10deg);
   }
   60% {
-    transform: translateY(0) rotate(2deg);
+      transform: translateY(0) rotateZ(5deg) skewX(-10deg);
   }
   100% {
-    transform: translateY(0) rotate(2deg);
+      transform: translateY(0) rotateZ(5deg) skewX(-10deg);
   }
 }
 
@@ -919,6 +919,7 @@ a:hover, a:focus {
     position: absolute;
     top: 130px;
     left: calc(50% - 124px);
+    transform: skewX(10deg);
 }
 
 .social ul {
